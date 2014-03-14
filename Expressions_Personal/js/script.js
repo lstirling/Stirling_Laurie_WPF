@@ -16,3 +16,5 @@ var canFood = 75;  //kcal per 3 oz can of Purina Pro plan food
 
 var stanIntake = catNames[0] * kcal / canFood + " cans per day"; //Stanley's food intake is equal to his weight times 70kcal divided by 75kcal (amount per can)
 console.log(stanIntake);
+
+var oliveIntake = catNames[1] * kcal / canFood + " cans per day";
