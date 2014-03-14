@@ -8,3 +8,4 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 
 var catNames = ["stanley", "olive", "nala"]; // my cats cats catNames
 var 0 = 8; //stanley's weight in kg
+var 1 = 6;
