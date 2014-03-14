@@ -11,5 +11,6 @@ var 0 = 8; //stanley's weight in kg
 var 1 = 6; //olive's weight in kg
 var 2 = 4.5; //Nala's weight in kg
 
-var kcal = 70;  //kcals needed per kg of body weight
+var kcal = 70;  //kcals needed per kg of body weight per day
 var canFood = 75;  //kcal per 3 oz can of Purina Pro plan food
+
