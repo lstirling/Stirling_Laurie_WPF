@@ -20,5 +20,5 @@ var nalaIntake = catNames[2] * kcal / canFood; //Nala's food intake is equal to 
 
 //Total amount of canned food fed to all cats per day
 
-var total = stanIntake + oliveIntake + nalaIntake + " cans per day.";
+var total = stanIntake + oliveIntake + nalaIntake + " cans per day."; //Stanleys daily intake plus Olive's daily intake plus Nala's daily intake equals the total eaten by all cats.
 console.log("The total amount eaten by all cats is " + total);
