@@ -7,4 +7,4 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 //Based on the number of birds in the yard, how many toes?
 
 var birds = 6; //how many birds found in the yard
-var toes = 3;
+var toes = 3; //how many toes are on each bird foot
