@@ -6,3 +6,4 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 
 //How many cans of food do my cats eat per day
 
+var catNames = ["stanley", "olive", "nala"];
