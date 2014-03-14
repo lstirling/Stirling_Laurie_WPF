@@ -6,4 +6,5 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 
 //How to calculate dog's Benedryl doseage by weight
 
-var dogWeight = "1"; 
+var dogWeight = "1"; //dog's weight in lbs
+var benedryl = 1; 
