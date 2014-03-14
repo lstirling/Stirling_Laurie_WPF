@@ -14,6 +14,11 @@ catNames[2] = 4.5; //Nala's weight in kg
 var kcal = 70;  //kcals needed per kg of body weight per day
 var canFood = 75;  //kcal per 3 oz can of Purina Pro plan food
 
-var stanIntake = catNames[0] * kcal / canFood + " cans per day"; //Stanley's food intake is equal to his weight times 70kcal divided by 75kcal (amount per can)
-var oliveIntake = catNames[1] * kcal / canFood + " cans per day"; //Olive's food intake is equal to her weight times 70kcal divided by 75kcal (amount per can)
-var nalaIntake = catNames[2] * kcal / canFood + " cans per day"; //Nala's food intake is equal to her weight times 70kcal divided by 75kcal (amount per can)
+var stanIntake = catNames[0] * kcal / canFood; //Stanley's food intake is equal to his weight times 70kcal divided by 75kcal (amount per can)
+var oliveIntake = catNames[1] * kcal / canFood; //Olive's food intake is equal to her weight times 70kcal divided by 75kcal (amount per can)
+var nalaIntake = catNames[2] * kcal / canFood; //Nala's food intake is equal to her weight times 70kcal divided by 75kcal (amount per can)
+
+//Total amount of canned food fed to all cats per day
+
+var total = stanIntake + oliveIntake + nalaIntake + " cans per day.";
+console.log("The total amount eaten by all cats is " + total);
