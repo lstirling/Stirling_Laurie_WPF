@@ -11,5 +11,5 @@ var benedryl = 1; //benedryl dose in mg
 var doseage = dogWeight * benedryl //dogs doseage of benedryl is 1mg per lb of body weight
 
 var dogWeight = prompt("Enter your dog's weight here:"); //dog weight dialogue box for calculations
-
+console.log(dogWeight);
 
