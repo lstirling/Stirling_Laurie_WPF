@@ -10,3 +10,5 @@ var catNames = ["stanley", "olive", "nala"]; // my cats cats catNames
 var 0 = 8; //stanley's weight in kg
 var 1 = 6; //olive's weight in kg
 var 2 = 4.5; //Nala's weight in kg
+
+var kcal = 70;
