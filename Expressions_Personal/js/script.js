@@ -14,5 +14,5 @@ catNames[2] = 4.5; //Nala's weight in kg
 var kcal = 70;  //kcals needed per kg of body weight per day
 var canFood = 75;  //kcal per 3 oz can of Purina Pro plan food
 
-var stanIntake = catNames[0] * kcal / canFood; //Stanley's food intake is equal to his weight times 70kcal divided by 75kcal (amount per can)
+var stanIntake = catNames[0] * kcal / canFood + " cans per day"; //Stanley's food intake is equal to his weight times 70kcal divided by 75kcal (amount per can)
 console.log(stanIntake);
