@@ -8,4 +8,4 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 
 var birds = 6; //how many birds found in the yard
 var toes = 3; //how many toes are on each bird foot
-var feet = 2; 
+var feet = 2; //how many feet the birds have
