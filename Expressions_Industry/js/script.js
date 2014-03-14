@@ -8,4 +8,4 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 
 var dogWeight = "1"; //dog's weight in lbs
 var benedryl = 1; //benedryl dose in mg
-
+var doseage = dogWeight * benedryl 
