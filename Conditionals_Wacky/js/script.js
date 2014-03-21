@@ -8,3 +8,7 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 var taxReturn = 5000; // amount of tax return expected
 var vacaPrice = 3500; // expected amount for vacation
 var budget = 4000 // maximum amount to spend on vacation
+
+if(vacaPrice < budget && taxReturn > 5000){
+	
+}
