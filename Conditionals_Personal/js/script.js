@@ -8,4 +8,7 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 //What game can my son play?
 
 var Andrew = 10 // My son Andrew is 10 years old
-var game;
+var game; //game that can be played
+
+//if Andrew is over 13 he can play Diablo, otherwise he can play Hearthstone.
+
