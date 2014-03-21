@@ -9,4 +9,4 @@ var temp = 35 //current temparature outside is 35 degrees
 var lowTemp = 32 // minumum temperature outside to travel to work
 
 if(temp > lowTemp){ // if the temperature is higher than 35 degrees you can travel to work.
-	
+	console.log ("You can safely travel to work today!");
