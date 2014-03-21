@@ -9,7 +9,7 @@ var taxReturn = 5000; // amount of tax return expected
 var vacaPrice = 3500; // expected amount for vacation
 var budget = 4000 // maximum amount to spend on vacation
 
-if(vacaPrice < budget && taxReturn > 5000){
+if(vacaPrice < budget && taxReturn >= 5000){ //if the price of the vacation is less than our budget and tax returns is greater than or equal to 5000 we can go on vacation.
 	console.log("You can go on Vacation!");
 
 }else{
