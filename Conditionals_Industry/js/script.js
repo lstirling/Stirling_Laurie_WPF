@@ -6,3 +6,4 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 //Laurie Stirling, Conditionals_Industry, 3-20-14
 
 var temp = 35 //current temparature outside is 35 degrees
+var lowTemp = 32
