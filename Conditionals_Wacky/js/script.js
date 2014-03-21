@@ -5,4 +5,5 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 
 //Laurie Stirling, Conditionals_Wacky, 3-20-14
 
-var taxReturn = 5000;
+var taxReturn = 5000; // amount of tax return expected
+var vacaPrice = 3500
