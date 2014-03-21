@@ -13,3 +13,4 @@ var game; //game that can be played
 //if Andrew is over 13 he can play Diablo, otherwise he can play Hearthstone.
 
 game = (andrewAge > 13) ? "Andrew can play Diablo!" : "Andrew can play Hearthstone!";
+console.log (game) //validation
