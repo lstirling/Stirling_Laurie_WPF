@@ -16,7 +16,7 @@ var lvl = tolerableVolume(15, 50); //volume ranges that can be tolerated.
 var level = 15; //actual volume level
 var maxLevel = 50; //maximum volume level tolerated
 
-while (level < maxLevel){
+while (level < maxLevel){ //loop
 	console.log(level + " is an acceptable volume level.");
 	level++;
 }
