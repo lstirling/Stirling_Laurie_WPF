@@ -13,7 +13,7 @@ var tolerableVolume = function(level, maxLevel){ //added function
 var lvl = tolerableVolume(15, 50); //volume ranges that can be tolerated.
 	console.log(lvl); //validation
 
-var level = 15;
+var level = 15; //actual volume level
 var maxLevel = 50;
 
 while (level < maxLevel){
