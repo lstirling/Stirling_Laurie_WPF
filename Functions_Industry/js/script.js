@@ -15,4 +15,5 @@ if(kidWeight > minWeight){ //if kids weight is less than 50 lbs he can sit up fr
 	
 while  (kidWeight < 40){
 	console.log( kidWeight +"lbs You can ride up front!");
+	kidWeight++;
 }
