@@ -10,7 +10,9 @@ var minWeight = 40; //Minimum weight to ride in front seat of car.
 var airbagControl = 40 // max weight to ride in front seat with airbag turned off.
 
 if(kidWeight > minWeight){ //if kids weight is less than 50 lbs he can sit up front
-	console.log("You can ride in front seat!");
 
 }else  if(kidWeight < minWeight) // can ride up front if under 40 lbs so airbag does not come on.
-	console.log( " You can ride up front in vehicles where airbag is turned off.");
+	
+while  (kidWeight < 40){
+	console.log( kidWeight +"lbs You can ride up front!");
+}
