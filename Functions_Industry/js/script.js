@@ -13,10 +13,10 @@ var normalRate;
 if(heartRate >100){ //conditional
 	normalRate = "Heart rate is normal."
 	
-}else heartRate = "Heart rate is too high!"
+}else heartRate = "Heart rate is too low" //if heart rate is below 100 it is too high.
 console.log(normalRate);
 
-while (heartRate <200){
+while (heartRate <200){ //loop
 	console.log(heartRate + " is a normal heart rate.")
-	heartRate++;
+	heartRate++; 
 }
