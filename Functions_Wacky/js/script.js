@@ -5,6 +5,10 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 
 //Laurie Stirling, Functions_Wacky, 3-27-14
 
-var volume = 15;
-var maxVolume = 50;
+var tolerableVolume = function(level, maxLevel){
+	var volume = level < maxLevel;
+	return volume;
+}
 
+var lvl = tolerableVolume(15, 50);
+console.log(lvl);
